@@ -242,7 +242,6 @@ button {
         padding: 4px 4px 4px 4px;
         top: 4px;
         left: 4px;
-        border: 2px solid red;
     }
 
     .logo {
@@ -256,7 +255,6 @@ button {
         min-height: 100%;
         height: fit-content; /* Propiedad que facilita la extención del contenedor cuando elemento de entrada de texto se expande*/
         width: 100%;
-        border: 5px solid red;
     }
 
 
@@ -268,8 +266,6 @@ button {
     .container-seccion-1 {
         width: 100%;
         height: fit-content; /* Propiedad que facilita la extención del contenedor cuando elemento de entrada de texto se expande*/
-        border: 5px solid blue;
-
     }
 
     .container-input {
@@ -277,7 +273,6 @@ button {
         height: auto;
         min-height: 245px;
         margin: 24px auto;
-        border: 5px solid #008000;
     }
 
     .texto__input {
@@ -286,19 +281,16 @@ button {
         padding: 0rem;
         margin: 0 auto;
         color: #0A3871;
-        border: 2px solid red;
     }
 
 
     .contenedor-container-exclamacion-botones {
         display: block;
-        border: 5px solid #008000;
     }
 
     .container-exclamacion-botones {
         margin: 0 auto;
         width: 100%;
-        border: 5px solid #d9a619;
         flex-direction: column;
     }
 
@@ -310,7 +302,6 @@ button {
     .container__botones {
         display: flex;
         width: 100%;
-        border: 5px solid #d9a619;
         margin: 0 auto;
         flex-direction: column;
     }
@@ -329,7 +320,6 @@ button {
     .container-seccion-2 {
         height: 30%;
         width: 100%;
-        border: 5px solid yellow;
     }
 
     .contenedor-texto-desencriptado {
@@ -346,7 +336,6 @@ button {
     .texto-desencriptado {
         height: 60%;
         width: 90%;
-        border: 5px solid rgb(0, 17, 255);
     }
 
     .boton-copiar {
@@ -459,7 +448,6 @@ button {
     .texto-desencriptado {
         height: 60%;
         width: 90%;
-        border: 5px solid rgb(0, 17, 255);
         visibility: hidden;
     }
 
