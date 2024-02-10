@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width">
+    <title>Encriptador Game</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>
+                <img src="imagenes/logo.svg">
+            </h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="container__contenido">
+            <div class="container-seccion-1">
+                <div class="container-input">
+                    <textarea oninput='this.style.height = "";this.style.height = this.scrollHeight + "px"' cols="70" rows="2" id="mensaje" id="valorUsuario" class="texto__input" placeholder="Ingrese texto aqui"></textarea>
+                </div>
+                <div class="contenedor-container-exclamacion-botones">
+                    <div class="container-exclamacion-botones">
+                        <div class="exclamacion">
+                            <img src="imagenes/exclamation-circle.svg">
+                            <p>Solo letras minúsculas y sin ascentos.</p>
+                        </div>
+                        <div class="container__botones">
+                            <button onclick="encriptarDesencriptar(`encriptar`);"  class="container__boton_encriptar">Encriptar</button>
+                            <button onclick="encriptarDesencriptar(`desencriptar`);" class="container__boton_desencriptar">Desencriptar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-seccion-2">
+                <div class="contenedor-texto-desencriptado">
+                    <h1 id = munecoId class="muneco">
+                        <img src="imagenes/muneco.svg">
+                    </h1>
+                    <p id = texto-desencriptado_avisoId class="texto-desencriptado_aviso">Ningún mensaje fue encontrado
+                    </p>
+                    <p id = texto-desencriptado_descripcionId class="texto-desencriptado_descripcion">Ingresa el texto que desees encriptar o desncriptar.
+                    </p>
+
+                    <p id="texto-desencriptadoId" class="texto-desencriptado">Lorem ipsum dolor sit amet consectetur adipiscing elit Orci montes sit et diam risus scelerisque vitae est Tortor maecenas nunc ut laoreet Eget diam mauris quam quisque ut eget fringilla sit elit Libero sodales duis fames id diam feugiat aliquet non egestas
+                    </p>
+                    <button id="boton-copiarId" onclick="copiar();" class="boton-copiar">Copiar</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
